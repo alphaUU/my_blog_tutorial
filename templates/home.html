@@ -25,10 +25,10 @@
         <div>
         <ul class="pager">
             {% if post_list.has_previous %}
-                <li><a href="?page={{ post_list.previous_page_number }}">last page</a> </li>
+                <li><a href="?page={{ post_list.previous_page_number }}">prev</a> </li>
             {% endif %}
             {% if post_list.has_next %}
-                <li><a href="?page={{ post_list.next_page_number }}">next page</a></li>
+                <li><a href="?page={{ post_list.next_page_number }}">next</a></li>
             {% endif %}
         </ul>
         </div>
